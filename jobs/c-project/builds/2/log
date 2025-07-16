@@ -1,0 +1,27 @@
+Started by user [8mha:////4B26d8+RJn2HrmRmQgvGXB7116mhOrkRayecUN2z52riAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xOyMzBwAHhI6ncAAAAA=[0mAkhil
+Running as SYSTEM
+Building remotely on [8mha:////4AQL8t1HauoIZq38mvCZ3gIHbkLPKHRnWeB0gXpMD2FYAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgYB/eT83ILSktQi/eKcxLJUfQCRhsanxQAAAA==[0mslave (c) in workspace /home/ec2-user/workspace/c-project
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Akhil-2134/test.git
+ > git init /home/ec2-user/workspace/c-project # timeout=10
+Fetching upstream changes from https://github.com/Akhil-2134/test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.47.1'
+ > git fetch --tags --force --progress -- https://github.com/Akhil-2134/test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Akhil-2134/test.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 57b4c8acf9a9b16e3d907c2c12671a0ba917efd0 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 57b4c8acf9a9b16e3d907c2c12671a0ba917efd0 # timeout=10
+Commit message: "Create trigger"
+ > git rev-list --no-walk 57b4c8acf9a9b16e3d907c2c12671a0ba917efd0 # timeout=10
+[c-project] $ /bin/sh -xe /tmp/jenkins5229278726995037163.sh
++ cd /home/ec2-user/
++ make
+make: *** No targets specified and no makefile found.  Stop.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
